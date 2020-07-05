@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyTube</string>
+    <string name="video_thumbnail_image_desc">Video thumbnail image</string>
+    <string name="title_placeholder_text">About Ankur Warikoo | Entrepreneur, Public Speaker, Investor, Mentor</string>
+</resources>
