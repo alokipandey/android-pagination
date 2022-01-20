@@ -5,8 +5,9 @@ import androidx.lifecycle.ViewModel
 import com.example.mytube.repository.webservice.EndPoint
 import com.example.mytube.repository.Repository
 import com.example.mytube.repository.VideoResponse
+import javax.inject.Inject
 
-class MyTubeViewModel: ViewModel() {
+class MyTubeViewModel @Inject constructor(): ViewModel() {
     val apiResponse = MutableLiveData<VideoResponse>()
     val isLoading = MutableLiveData<Boolean>().apply { value = false }
     var loadedPages = 0
