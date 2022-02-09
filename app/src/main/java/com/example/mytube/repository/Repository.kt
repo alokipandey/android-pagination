@@ -12,7 +12,7 @@ import retrofit2.Response
 
 object Repository {
 
-    fun fetchData(end:String, urlResponse: MutableLiveData<VideoResponse>, context: Context){
+    fun fetchData(end:String, urlResponse: MutableLiveData<VideoResponse>){
 
 
         WebClient.retrofitClient.getData(end).enqueue(object: Callback<VideoResponse>{
