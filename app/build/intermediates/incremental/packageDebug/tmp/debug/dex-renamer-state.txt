@@ -1,4 +1,4 @@
-#Thu Jan 20 14:15:57 IST 2022
+#Wed Feb 09 16:47:33 IST 2022
 base.0=/Volumes/My Passport/android-pagination/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
